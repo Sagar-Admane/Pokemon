@@ -1,0 +1,29 @@
+
+.cards{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    min-width: 300px;
+    
+    .img{
+        background-color: #F6F5F2;
+        min-height: 250px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0.5px 5px 10px 10px #888888;
+
+        p{
+            font-weight: bold;
+            margin: 12px;
+            text-transform: capitalize;
+            
+        }
+    }
+}

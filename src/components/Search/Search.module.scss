@@ -1,0 +1,22 @@
+.container{
+    height: 80px;
+}
+
+.search{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    gap: 10px;
+    
+    .img{
+        margin: 0px 0px 0px 100px;
+    }
+
+    input{
+        border: none;
+        padding: 5.9px;
+        width: 350%;
+        background-color: #FEFAF6;
+    }
+
+}
